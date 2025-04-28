@@ -37,5 +37,5 @@ def parse_website(url):
 
 
 if __name__ == "__main__":
-    url = "https://example.com" 
+    url = input("Введите URL веб-ресурса: ")
     parse_website(url)
