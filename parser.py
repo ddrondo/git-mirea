@@ -30,8 +30,6 @@ def parse_website(url):
 
         print(f"Данные успешно сохранены в файл: {filename}")
 
-    except requests.RequestException as e:
-        print(f"Ошибка при запросе: {e}")
     except Exception as e:
         print(f"Произошла ошибка: {e}")
 
